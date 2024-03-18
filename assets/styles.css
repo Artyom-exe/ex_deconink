@@ -4,6 +4,13 @@ div#container {
     background-size: cover;
     min-width: 500px;
 }
+div#container-index {
+    background-image: url("../images/fond.jpg");
+    background-position: center;
+    background-size: cover;
+    min-width: 500px;
+    height: 100vh;
+}
 header {
     text-align: center;
 }
@@ -121,7 +128,6 @@ figure iframe {
     width: 100%;
 
 }
-
 footer {
     text-align: center;
 }
@@ -132,4 +138,10 @@ footer p:first-child {
 footer p:last-child {
     color: rgb(150, 23, 23);
     font-weight: bold;
+}
+footer[role="contentinfo-index"] p:first-child {
+    font-weight: bold;
+}
+footer[role="contentinfo-index"] p:nth-of-type(2) {
+    display: inline;
 }
