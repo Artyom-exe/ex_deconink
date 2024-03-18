@@ -1,15 +1,18 @@
+body {
+    background-image: url("../images/fond.jpg");
+        background-position: center;
+        background-size: cover;
+        min-width: 500px;
+}
 div#container {
     background-image: url("../images/fond.jpg");
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     min-width: 500px;
 }
-div#container-index {
-    background-image: url("../images/fond.jpg");
-    background-position: center;
-    background-size: cover;
-    min-width: 500px;
-    height: 100vh;
+figure img {
+    width: 40%;
+    height: auto;
 }
 header {
     text-align: center;
