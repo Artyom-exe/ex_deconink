@@ -2,13 +2,13 @@ body {
     background-image: url("../images/fond.jpg");
         background-position: center;
         background-size: cover;
-        min-width: 500px;
+        min-width: 700px;
 }
 div#container {
     background-image: url("../images/fond.jpg");
     background-position: center;
     background-size:cover;
-    min-width: 500px;
+    min-width: 700px;
 }
 figure img {
     width: 40%;
